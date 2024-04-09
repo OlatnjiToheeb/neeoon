@@ -1,0 +1,89 @@
+/* -------header-------  */
+body{
+  margin: 0px;
+}
+#header{
+  background-color:  rgba(100, 148, 237, 0.232);
+  border-bottom: 2px solid black;
+}
+#header>div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  margin-right: 2vw;
+  margin-left: 2vw;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+#menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: unset;
+}
+
+#header>h1{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  font-size: x-large;
+  width: 15vw;
+}
+ul{
+  background-color: rgba(100, 148, 237, 0.232);
+  border: 1px solid black;
+  margin: 0.5vw;
+  padding: 0.5vw;
+  border-radius: 2vh;
+}
+a{
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+/* -------body------ */
+img{
+  margin: 0.5vw;
+  border: 1px solid white;
+  transition: height 1s;
+}
+img:hover{
+  width: 304px;
+  height: 404px;
+  
+}
+.gunbox{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#undergun{
+  color: rgb(136, 84, 84);
+  display: flex;
+  align-items: center;
+}
+
+input{
+  background-color: rgba(255, 255, 255, 0.789);
+  margin: 2px;
+  box-shadow: opx;
+  
+}
+#undergun{
+  margin-left: 2vw;
+}
+
+/* ------footer------ */
+#footer{
+  background-color:rgba(100, 148, 237, 0.232);
+  height: 10vh;
+  width: 100vw;
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-top: black 2px solid;
+} 
+h1{
+  color: white;
+}
